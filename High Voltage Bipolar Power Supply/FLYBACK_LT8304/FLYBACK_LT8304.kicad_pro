@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HVBSUP.kicad_pro",
+    "filename": "FLYBACK_LT8304.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "a72f9565-9822-4872-9c2c-bf86405b6c7d",
+      "ee3e38c2-fd11-4400-9fae-1ef8d3d40b1c",
       "Root"
     ]
   ],
