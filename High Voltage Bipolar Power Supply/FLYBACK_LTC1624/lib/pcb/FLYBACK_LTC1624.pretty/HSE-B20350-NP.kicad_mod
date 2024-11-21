@@ -1,0 +1,141 @@
+(footprint "HSE-B20350-NP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Heat sink")
+	(property "Reference" "REF**"
+		(at 0 -18.288 0)
+		(layer "F.SilkS")
+		(uuid "20cd5de3-0bf2-4e7d-94c7-e73a169bb57b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "HSE-B20350-NP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6a25f647-16cb-4b57-8fac-c01cbc4dd419")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1786e112-dee9-4830-819f-4fe49d30df8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aa34f08-f60d-4886-95dd-973c9dc017bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f39ce966-fede-4864-8ea6-a81c8736a310")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.75 -17.75)
+		(end -14.75 17.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af006398-c593-4912-b2d2-c8a123227ee7")
+	)
+	(fp_line
+		(start -14.75 17.75)
+		(end 14.75 17.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "521ba618-721e-4422-b663-e169ec44cc7d")
+	)
+	(fp_line
+		(start 14.75 -17.75)
+		(end -14.75 -17.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccd800c0-e93e-4095-827a-7f7bae54045c")
+	)
+	(fp_line
+		(start 14.75 17.75)
+		(end 14.75 -17.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "897a5377-e61a-446c-b9b9-5fba1b600059")
+	)
+	(pad "1" thru_hole oval
+		(at 0 -7.5)
+		(size 10 5)
+		(drill oval 9.2 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3429dca2-d5d6-477c-960d-dc66bbb7331e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 4.4 4.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f37304a-81e1-4fd8-a5ba-309fdbea35c4")
+	)
+	(pad "1" thru_hole circle
+		(at 0 7.5)
+		(size 4.4 4.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41e1beec-51b8-4ede-a666-95ee0172247c")
+	)
+	(model "${KIPRJMOD}/lib/3d/HSE-B20350-NP.step"
+		(offset
+			(xyz 0 -17.5 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
