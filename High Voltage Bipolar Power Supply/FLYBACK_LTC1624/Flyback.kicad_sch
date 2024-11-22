@@ -1482,6 +1482,466 @@
 				)
 			)
 		)
+		(symbol "Isolator_Analog:ACPL-C79A"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "ACPL-C79A"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm"
+				(at 3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://docs.avagotech.com/docs/AV02-2460EN"
+				(at 1.143 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Precision Isolation Amplifer, ±1% Gain Tolerance, Bandwidth 200kHz, SSO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Isolation Amplifer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSO*6.8x5.9mm*P1.27mm*Clearance8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ACPL-C79A_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -4.318 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -4.318 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 6.35) (xy -4.318 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -5.08) (xy -3.556 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 5.08) (xy -3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.334) (xy -3.81 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -2.54 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -2.54 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 2.794) (xy 2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 1.524 -4.826) (xy 1.524 4.826) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -6.35) (xy -0.762 -2.794) (xy -0.762 2.794) (xy -4.318 6.35) (xy -4.318 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -0.508) (xy 0.889 -0.508) (xy 0.508 -0.635) (xy 0.508 -0.381) (xy 0.889 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 0.508) (xy 0.889 0.508) (xy 0.508 0.381) (xy 0.508 0.635) (xy 0.889 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ACPL-C79A_1_1"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
 				(offset 0) hide)
@@ -5465,6 +5925,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator_Analog:ACPL-C79A")
+		(at 130.81 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "080222cc-1541-40f7-a355-888d6dffe53c")
+		(property "Reference" "U6"
+			(at 146.05 114.3314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACPL-C79A"
+			(at 146.05 116.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm"
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs.avagotech.com/docs/AV02-2460EN"
+			(at 131.953 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision Isolation Amplifer, ±1% Gain Tolerance, Bandwidth 200kHz, SSO-8"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fde9e222-e093-4f9c-b8d4-5344d24e4d5d")
+		)
+		(pin "5"
+			(uuid "41e4f9cf-e73f-4287-8851-9192ad801477")
+		)
+		(pin "7"
+			(uuid "9c5f3f5d-fbdc-4a2b-843f-81bad83c4390")
+		)
+		(pin "6"
+			(uuid "a1eacae3-7cff-4f84-a65e-e3d8e4491b0b")
+		)
+		(pin "2"
+			(uuid "525bfb9b-890c-4229-ace4-2fa341ffdc95")
+		)
+		(pin "3"
+			(uuid "8a62cb5e-bc0c-49e8-83c6-ec692f635d51")
+		)
+		(pin "8"
+			(uuid "42e63bbf-3b7f-420d-adeb-b3c5d4f519ff")
+		)
+		(pin "1"
+			(uuid "7aeb7f2e-6a81-4b88-a882-4549295da998")
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/0d0ff0c8-e715-47fe-aebe-0044b1d841d2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TSR_1-2450")
 		(at 67.31 142.24 0)
 		(unit 1)
@@ -6432,40 +6981,40 @@
 			)
 		)
 		(pin "11"
-			(uuid "25664e35-8be7-4426-9859-44463c296466")
+			(uuid "25664e35-8be7-4426-9859-44463c296467")
 		)
 		(pin "12"
-			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2e")
+			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2f")
 		)
 		(pin "2"
-			(uuid "22c56a68-9001-46f9-9083-d3d693075a19")
+			(uuid "22c56a68-9001-46f9-9083-d3d693075a1a")
 		)
 		(pin "1"
-			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37c")
+			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37d")
 		)
 		(pin "6"
-			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377c")
+			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377d")
 		)
 		(pin "3"
-			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7d")
+			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7e")
 		)
 		(pin "10"
-			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cc")
+			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cd")
 		)
 		(pin "7"
-			(uuid "95c09a28-140a-4c31-9847-9c9682aa1df9")
+			(uuid "95c09a28-140a-4c31-9847-9c9682aa1dfa")
 		)
 		(pin "5"
-			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49b")
+			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49c")
 		)
 		(pin "8"
-			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aeb")
+			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aec")
 		)
 		(pin "4"
-			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a8")
+			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a9")
 		)
 		(pin "9"
-			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b03")
+			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b04")
 		)
 		(instances
 			(project ""
@@ -7175,40 +7724,40 @@
 			)
 		)
 		(pin "11"
-			(uuid "25664e35-8be7-4426-9859-44463c296466")
+			(uuid "25664e35-8be7-4426-9859-44463c296468")
 		)
 		(pin "12"
-			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2e")
+			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a30")
 		)
 		(pin "2"
-			(uuid "22c56a68-9001-46f9-9083-d3d693075a19")
+			(uuid "22c56a68-9001-46f9-9083-d3d693075a1b")
 		)
 		(pin "1"
-			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37c")
+			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37e")
 		)
 		(pin "6"
-			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377c")
+			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377e")
 		)
 		(pin "3"
-			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7d")
+			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7f")
 		)
 		(pin "10"
-			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cc")
+			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87ce")
 		)
 		(pin "7"
-			(uuid "95c09a28-140a-4c31-9847-9c9682aa1df9")
+			(uuid "95c09a28-140a-4c31-9847-9c9682aa1dfb")
 		)
 		(pin "5"
-			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49b")
+			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49d")
 		)
 		(pin "8"
-			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aeb")
+			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aed")
 		)
 		(pin "4"
-			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a8")
+			(uuid "50864f9c-ead2-467e-a885-d08ae137e2aa")
 		)
 		(pin "9"
-			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b03")
+			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b05")
 		)
 		(instances
 			(project ""
@@ -7684,40 +8233,40 @@
 			)
 		)
 		(pin "11"
-			(uuid "25664e35-8be7-4426-9859-44463c296466")
+			(uuid "25664e35-8be7-4426-9859-44463c296469")
 		)
 		(pin "12"
-			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2e")
+			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a31")
 		)
 		(pin "2"
-			(uuid "22c56a68-9001-46f9-9083-d3d693075a19")
+			(uuid "22c56a68-9001-46f9-9083-d3d693075a1c")
 		)
 		(pin "1"
-			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37c")
+			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37f")
 		)
 		(pin "6"
-			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377c")
+			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377f")
 		)
 		(pin "3"
-			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7d")
+			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd80")
 		)
 		(pin "10"
-			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cc")
+			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cf")
 		)
 		(pin "7"
-			(uuid "95c09a28-140a-4c31-9847-9c9682aa1df9")
+			(uuid "95c09a28-140a-4c31-9847-9c9682aa1dfc")
 		)
 		(pin "5"
-			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49b")
+			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49e")
 		)
 		(pin "8"
-			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aeb")
+			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aee")
 		)
 		(pin "4"
-			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a8")
+			(uuid "50864f9c-ead2-467e-a885-d08ae137e2ab")
 		)
 		(pin "9"
-			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b03")
+			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b06")
 		)
 		(instances
 			(project ""
@@ -8468,40 +9017,40 @@
 			)
 		)
 		(pin "11"
-			(uuid "25664e35-8be7-4426-9859-44463c296466")
+			(uuid "25664e35-8be7-4426-9859-44463c29646a")
 		)
 		(pin "12"
-			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2e")
+			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a32")
 		)
 		(pin "2"
-			(uuid "22c56a68-9001-46f9-9083-d3d693075a19")
+			(uuid "22c56a68-9001-46f9-9083-d3d693075a1d")
 		)
 		(pin "1"
-			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37c")
+			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff380")
 		)
 		(pin "6"
-			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377c")
+			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa73780")
 		)
 		(pin "3"
-			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7d")
+			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd81")
 		)
 		(pin "10"
-			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cc")
+			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87d0")
 		)
 		(pin "7"
-			(uuid "95c09a28-140a-4c31-9847-9c9682aa1df9")
+			(uuid "95c09a28-140a-4c31-9847-9c9682aa1dfd")
 		)
 		(pin "5"
-			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49b")
+			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49f")
 		)
 		(pin "8"
-			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aeb")
+			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aef")
 		)
 		(pin "4"
-			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a8")
+			(uuid "50864f9c-ead2-467e-a885-d08ae137e2ac")
 		)
 		(pin "9"
-			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b03")
+			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b07")
 		)
 		(instances
 			(project ""
@@ -8928,40 +9477,40 @@
 			)
 		)
 		(pin "11"
-			(uuid "25664e35-8be7-4426-9859-44463c296466")
+			(uuid "25664e35-8be7-4426-9859-44463c29646b")
 		)
 		(pin "12"
-			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a2e")
+			(uuid "74794c35-bdb6-43c6-8778-0e2587cc1a33")
 		)
 		(pin "2"
-			(uuid "22c56a68-9001-46f9-9083-d3d693075a19")
+			(uuid "22c56a68-9001-46f9-9083-d3d693075a1e")
 		)
 		(pin "1"
-			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff37c")
+			(uuid "34c9bcf7-bbb8-4450-b2d4-8e660ddff381")
 		)
 		(pin "6"
-			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa7377c")
+			(uuid "98cfc8fb-7ec8-468f-978c-a7d21aa73781")
 		)
 		(pin "3"
-			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd7d")
+			(uuid "0f038cc4-e2d4-4093-8090-dd7c53cbfd82")
 		)
 		(pin "10"
-			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87cc")
+			(uuid "1ae733da-06db-45c3-830b-de4c1b2d87d1")
 		)
 		(pin "7"
-			(uuid "95c09a28-140a-4c31-9847-9c9682aa1df9")
+			(uuid "95c09a28-140a-4c31-9847-9c9682aa1dfe")
 		)
 		(pin "5"
-			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db49b")
+			(uuid "cddf03cc-b61b-4819-acd9-1a476c8db4a0")
 		)
 		(pin "8"
-			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73aeb")
+			(uuid "1fcfb8d1-c678-4e34-bdde-b81cadf73af0")
 		)
 		(pin "4"
-			(uuid "50864f9c-ead2-467e-a885-d08ae137e2a8")
+			(uuid "50864f9c-ead2-467e-a885-d08ae137e2ad")
 		)
 		(pin "9"
-			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b03")
+			(uuid "efb8f2fc-988e-4dbb-a72b-5ae983b82b08")
 		)
 		(instances
 			(project ""
