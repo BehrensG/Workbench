@@ -428,6 +428,86 @@
 		(uuid "e9bf3137-c5d8-4aad-b089-0618efebbdba")
 	)
 	(fp_line
+		(start -11.938 -6.604)
+		(end -11.938 12.954)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c0da81c-a97e-4f2b-ae71-a2aba51b20e0")
+	)
+	(fp_line
+		(start -11.938 12.954)
+		(end -5.588 12.954)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad76d12b-e356-4899-8a37-ec30db1353ad")
+	)
+	(fp_line
+		(start -5.588 -3.302)
+		(end 5.588 -3.302)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4fab134-7508-4b09-b31a-09fefd9cb998")
+	)
+	(fp_line
+		(start -5.588 12.954)
+		(end -5.588 -3.302)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "43e14f90-e6df-41a5-b34b-1041b55aa60b")
+	)
+	(fp_line
+		(start 5.588 -3.302)
+		(end 5.588 12.954)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cefcab3e-77a8-48ee-bc3e-87355e8835d2")
+	)
+	(fp_line
+		(start 5.588 12.954)
+		(end 11.938 12.954)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b94be5e7-57cc-4142-8d38-6d397c381fbd")
+	)
+	(fp_line
+		(start 11.938 -6.604)
+		(end -11.938 -6.604)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9ce3e03-ca9c-4a55-9c6e-8bcc6ae4372e")
+	)
+	(fp_line
+		(start 11.938 12.954)
+		(end 11.938 -6.604)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8ed56ba-019e-4c5c-ba25-8e5e33a236b3")
+	)
+	(fp_line
 		(start -11.4 -2.7876)
 		(end -10.285 -1.8)
 		(stroke
@@ -977,6 +1057,26 @@
 		(layer "F.Fab")
 		(uuid "263da6a3-103b-499f-b9ed-3e405a3021ed")
 	)
+	(fp_line
+		(start -0.254 0)
+		(end 0.254 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "4a404161-0a6f-49ad-95ad-f4ec9ca085ba")
+	)
+	(fp_line
+		(start 0 -0.254)
+		(end 0 0.254)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "9db28c75-b289-4584-ba16-f83ebecfb775")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -4 0)
 		(layer "F.Fab")
@@ -987,14 +1087,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "1" thru_hole circle
-		(at 0 0)
-		(size 5 5)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "529ac62e-c79a-4f93-a9c6-875949c0e0b2")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_AAVID_TV5G_TO220_Horizontal.wrl"
 		(offset

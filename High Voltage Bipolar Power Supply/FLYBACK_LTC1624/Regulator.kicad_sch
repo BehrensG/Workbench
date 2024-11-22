@@ -1095,23 +1095,25 @@
 				)
 			)
 		)
-		(symbol "Mechanical:Heatsink_Pad"
+		(symbol "FLYBACK_LTC1624:+44V"
+			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "HS"
-				(at 0 5.715 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "Heatsink_Pad"
-				(at 0 3.81 0)
+			(property "Value" "+44V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1119,7 +1121,485 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.3048 -1.27 0)
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+44V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+44V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FLYBACK_LTC1624:+50V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+50V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+50V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+50V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FLYBACK_LTC1624:-44V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-44V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-44V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-44V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FLYBACK_LTC1624:-50V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-50V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-50V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-50V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1128,7 +1608,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0.3048 -1.27 0)
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1136,7 +1616,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Heatsink with electrical connection, 1 pin"
+			(property "Description" "Heatsink"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1163,11 +1643,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_0_1"
+			(symbol "Heatsink_0_1"
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
-						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1179,9 +1659,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
-						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
-						(xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1189,26 +1669,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(symbol "Heatsink_Pad_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2391,222 +2851,6 @@
 				)
 			)
 		)
-		(symbol "power:+48V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+48V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+48V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+48V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+48V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:-48V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-48V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-48V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-48V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-48V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2801,12 +3045,6 @@
 		)
 	)
 	(junction
-		(at 147.32 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0abe9871-7b3b-4a01-9b10-672eee4fd72f")
-	)
-	(junction
 		(at 139.7 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2891,7 +3129,7 @@
 		(uuid "48100e28-7e36-4462-b31f-ebb7fa0a875b")
 	)
 	(junction
-		(at 99.06 58.42)
+		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a1779d-9f58-45d5-aa5d-de5b83400653")
@@ -2915,7 +3153,7 @@
 		(uuid "746286d8-c5d2-4637-8f25-cd14ae82fce1")
 	)
 	(junction
-		(at 99.06 67.31)
+		(at 97.79 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a8fc31-917f-4017-82d0-5e3196b4c7f5")
@@ -2933,6 +3171,12 @@
 		(uuid "8ddf28ed-d592-41e7-9629-aa48e77541e1")
 	)
 	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a951f3-f5cf-4efc-a083-f01835b18764")
+	)
+	(junction
 		(at 107.95 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2945,10 +3189,22 @@
 		(uuid "9a3e7c00-36ca-45a6-ae4f-be348eafeaee")
 	)
 	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4c26c3-4b26-4e4d-a271-79587091072c")
+	)
+	(junction
 		(at 171.45 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a201dd88-ef27-40ec-9be6-724b352e48b5")
+	)
+	(junction
+		(at 149.86 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a81d95e5-9503-4c57-bb14-124267073556")
 	)
 	(junction
 		(at 154.94 36.83)
@@ -3005,10 +3261,10 @@
 		(uuid "c7c521c2-f2b2-4a49-8fcc-1b4791b31e20")
 	)
 	(junction
-		(at 147.32 50.8)
+		(at 83.82 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9beb6b3-95d3-483c-9ffe-690a082d012c")
+		(uuid "d1208742-369d-4f78-a1d0-7552e579753d")
 	)
 	(junction
 		(at 171.45 154.94)
@@ -3027,22 +3283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac76dc0-e051-4680-9512-48eff4db403d")
-	)
-	(no_connect
-		(at 163.83 109.22)
-		(uuid "02f2dff4-bfce-45ce-bb2a-87a3f2b9d6cd")
-	)
-	(no_connect
-		(at 100.33 25.4)
-		(uuid "1c66cfab-abf2-4b0e-b2fa-f2d800608e17")
-	)
-	(no_connect
-		(at 163.83 118.11)
-		(uuid "6c0cc799-84ee-4027-9ed4-c1d0db426ef2")
-	)
-	(no_connect
-		(at 100.33 34.29)
-		(uuid "e6698f5c-4a72-491b-bc2e-f5983287d3d4")
 	)
 	(wire
 		(pts
@@ -3066,17 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 154.94 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a2604e-82a9-4a3f-af7d-658b34671221")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 128.27 76.2)
+			(xy 118.11 77.47) (xy 137.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 128.27) (xy 147.32 128.27)
+			(xy 139.7 128.27) (xy 149.86 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 118.11 50.8)
+			(xy 102.87 50.8) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3376,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 154.94 109.22)
+			(xy 149.86 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10084c29-ef1a-4aaa-a65c-8d9cb9828498")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3166,17 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 77.47) (xy 99.06 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149cab93-11b7-4880-b65f-1dc15d5f17c7")
-	)
-	(wire
-		(pts
-			(xy 129.54 60.96) (xy 137.16 60.96)
+			(xy 132.08 60.96) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3236,6 +3466,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 50.8) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240837f9-80ab-4e86-b7b3-eff82cfa4de3")
+	)
+	(wire
+		(pts
 			(xy 96.52 135.89) (xy 96.52 140.97)
 		)
 		(stroke
@@ -3276,16 +3516,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 128.27) (xy 154.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d43280f-fc5e-4fcc-9e61-d8707db097d4")
-	)
-	(wire
-		(pts
 			(xy 154.94 50.8) (xy 171.45 50.8)
 		)
 		(stroke
@@ -3293,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "2f93cfe8-37fa-45aa-b84e-3f28757baa06")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bae5c3-eee6-41dd-85d4-264b941c73bf")
 	)
 	(wire
 		(pts
@@ -3306,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 77.47) (xy 97.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34016ad4-1d5a-40ee-bf98-e11102343f1d")
+	)
+	(wire
+		(pts
 			(xy 96.52 148.59) (xy 96.52 154.94)
 		)
 		(stroke
@@ -3316,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 50.8) (xy 93.98 50.8)
+			(xy 74.93 50.8) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3356,6 +3606,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 49.53) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a4ca31-33ed-4820-a8e8-1ed668597b2b")
+	)
+	(wire
+		(pts
 			(xy 99.06 109.22) (xy 99.06 128.27)
 		)
 		(stroke
@@ -3366,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 119.38) (xy 134.62 119.38)
+			(xy 128.27 119.38) (xy 139.7 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3376,23 +3636,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 120.65 76.2)
+			(xy 118.11 67.31) (xy 118.11 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "493290d8-0216-43fe-a69a-1ff394246287")
-	)
-	(wire
-		(pts
-			(xy 87.63 58.42) (xy 99.06 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bac153f-8e09-4062-985f-78371b57f486")
 	)
 	(wire
 		(pts
@@ -3406,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 109.22) (xy 99.06 109.22)
+			(xy 134.62 109.22) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 147.32 60.96)
+			(xy 149.86 60.96) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3486,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 119.38) (xy 147.32 128.27)
+			(xy 149.86 119.38) (xy 149.86 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2) (xy 154.94 76.2)
+			(xy 144.78 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3646,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 99.06 76.2)
+			(xy 97.79 77.47) (xy 97.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3666,7 +3916,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 147.32 60.96)
+			(xy 151.13 50.8) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +3926,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 147.32 50.8)
+			(xy 83.82 127) (xy 83.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e85011e-75f1-4ae2-a531-a6cf96308795")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3706,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 99.06 66.04)
+			(xy 97.79 67.31) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3996,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 60.96) (xy 118.11 60.96)
+			(xy 124.46 60.96) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3896,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 99.06 67.31)
+			(xy 97.79 68.58) (xy 97.79 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3916,7 +4176,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 119.38) (xy 147.32 119.38)
+			(xy 147.32 119.38) (xy 149.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3996,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 50.8)
+			(xy 154.94 77.47) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 120.65 67.31)
+			(xy 97.79 67.31) (xy 118.11 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4186,7 +4446,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 140.97 60.96 0)
+		(at 146.05 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4195,15 +4455,15 @@
 		(dnp no)
 		(uuid "0157f0e5-21b6-4c91-a1be-3593eebaf613")
 		(property "Reference" "D13"
-			(at 140.97 64.77 0)
+			(at 146.05 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMBJ5370B-TP"
-			(at 140.97 67.31 0)
+		(property "Value" "SMBJ5339B-TP"
+			(at 146.05 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4471,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 140.97 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4489,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 140.97 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,6 +4580,72 @@
 			(project "FLYBACK_LTC1624"
 				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FLYBACK_LTC1624:+50V")
+		(at 83.82 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a3070ff-e129-4d88-8ae5-8e4a7d7e7956")
+		(property "Reference" "#PWR032"
+			(at 83.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+50V"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82927d2-aacd-4901-ac19-8d41b84db10a")
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4873,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 129.54 109.22 0)
+		(at 138.43 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +4882,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c96affe-db26-43ca-9870-6ae4dc99369b")
 		(property "Reference" "D5"
-			(at 129.54 102.87 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4890,7 @@
 			)
 		)
 		(property "Value" "MRA4003T3G"
-			(at 129.54 105.41 0)
+			(at 138.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4898,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 129.54 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4916,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 129.54 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4925,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 129.54 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4934,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +5218,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 125.73 60.96 270)
+		(at 128.27 60.96 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4901,23 +5227,23 @@
 		(dnp no)
 		(uuid "30d07472-4df8-40d7-9c14-2eee274eef4b")
 		(property "Reference" "TH2"
-			(at 125.4125 66.04 90)
+			(at 128.27 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 125.4125 68.58 90)
+		(property "Value" "TFPT1206L1000FV"
+			(at 128.27 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.65 59.69 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 123.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 60.96 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5262,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 125.73 60.96 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
+		(lib_id "Mechanical:Heatsink")
 		(at 100.33 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5216,7 +5542,7 @@
 		(fields_autoplaced yes)
 		(uuid "418a2f18-31df-4607-b33c-4ab5e33d3ec7")
 		(property "Reference" "HS4"
-			(at 104.14 29.8449 0)
+			(at 104.14 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5551,7 @@
 			)
 		)
 		(property "Value" "TV5G"
-			(at 104.14 32.3849 0)
+			(at 104.14 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,8 +5559,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FLYBACK_LT8304:Heatsink_AAVID_TV5G_TO220_Horizontal"
-			(at 100.6348 33.02 0)
+		(property "Footprint" "FLYBACK_LTC1624:Heatsink_AAVID_TV5G_TO220_Horizontal"
+			(at 100.6348 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.6348 33.02 0)
+			(at 100.6348 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" "Heatsink"
 			(at 100.33 31.75 0)
 			(effects
 				(font
@@ -5259,9 +5585,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c8680a96-5008-4084-b591-acf1cd7ca9cb")
 		)
 		(instances
 			(project "FLYBACK_LTC1624"
@@ -5632,6 +5955,72 @@
 		)
 	)
 	(symbol
+		(lib_id "FLYBACK_LTC1624:-50V")
+		(at 68.58 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f83e273-5b3c-4d6b-a02f-e042d7c07c5b")
+		(property "Reference" "#PWR033"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-50V"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c6df4c3-2114-4533-a5ad-8501b131808a")
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 154.94 44.45 90)
 		(mirror x)
@@ -5722,7 +6111,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:TIP125")
-		(at 99.06 53.34 90)
+		(at 97.79 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5731,7 +6120,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b25b121-d984-422c-b073-fb2bbc05fd63")
 		(property "Reference" "Q4"
-			(at 99.06 44.45 90)
+			(at 97.79 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +6128,7 @@
 			)
 		)
 		(property "Value" "TIP125"
-			(at 99.06 46.99 90)
+			(at 97.79 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +6136,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 100.965 48.26 0)
+			(at 99.695 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +6147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
-			(at 99.06 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +6157,7 @@
 			)
 		)
 		(property "Description" "5A Ic, 60V Vce, Silicon Darlington Power PNP Transistor, TO-220"
-			(at 99.06 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,8 +6184,74 @@
 		)
 	)
 	(symbol
+		(lib_id "FLYBACK_LTC1624:-44V")
+		(at 184.15 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e573b6a-aae6-4a3e-9c7b-5a8c862aebd8")
+		(property "Reference" "#PWR030"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-44V"
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 184.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d3d49d1-c17b-4e2f-9370-54adadcee30f")
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
-		(at 99.06 62.23 90)
+		(at 97.79 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5805,7 +6260,7 @@
 		(fields_autoplaced yes)
 		(uuid "8343e7a6-39cb-4a96-a7f7-880513a341e6")
 		(property "Reference" "D9"
-			(at 101.6 60.9599 90)
+			(at 100.33 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +6269,7 @@
 			)
 		)
 		(property "Value" "MMSZ5260BT1G"
-			(at 101.6 63.4999 90)
+			(at 100.33 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +6278,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 99.06 62.23 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +6287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 62.23 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6296,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 99.06 62.23 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
+		(lib_id "Mechanical:Heatsink")
 		(at 163.83 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5942,7 +6397,7 @@
 		(fields_autoplaced yes)
 		(uuid "8867a4ab-0f41-4ef6-9ec6-7134778616b1")
 		(property "Reference" "HS2"
-			(at 167.64 113.6649 0)
+			(at 167.64 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +6406,7 @@
 			)
 		)
 		(property "Value" "TV5G"
-			(at 167.64 116.2049 0)
+			(at 167.64 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,8 +6414,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FLYBACK_LT8304:Heatsink_AAVID_TV5G_TO220_Horizontal"
-			(at 164.1348 116.84 0)
+		(property "Footprint" "FLYBACK_LTC1624:Heatsink_AAVID_TV5G_TO220_Horizontal"
+			(at 164.1348 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +6424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.1348 116.84 0)
+			(at 164.1348 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" "Heatsink"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -5985,9 +6440,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "b4275436-5cff-44d1-aae8-7b11f72c2136")
 		)
 		(instances
 			(project "FLYBACK_LTC1624"
@@ -6259,8 +6711,75 @@
 		)
 	)
 	(symbol
+		(lib_id "FLYBACK_LTC1624:+44V")
+		(at 241.3 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "938cda6d-be60-4663-b518-64bfbb24c0b7")
+		(property "Reference" "#PWR037"
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+44V"
+			(at 237.49 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e48c94d-052f-4297-8f20-73c615b658c7")
+		)
+		(instances
+			(project "FLYBACK_LTC1624"
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
-		(at 132.08 76.2 0)
+		(at 140.97 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +6788,7 @@
 		(fields_autoplaced yes)
 		(uuid "9da33e79-c7c7-4487-b8cc-c83f2d1a521a")
 		(property "Reference" "D12"
-			(at 132.08 69.85 0)
+			(at 140.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6796,7 @@
 			)
 		)
 		(property "Value" "MRA4003T3G"
-			(at 132.08 72.39 0)
+			(at 140.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6804,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 132.08 76.2 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 76.2 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6822,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 132.08 76.2 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6831,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 132.08 76.2 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6840,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 76.2 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,17 +6864,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 99.06 72.39 90)
+		(lib_id "FLYBACK_LTC1624:+44V")
+		(at 184.15 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "a0bccb17-fbfd-40c2-82e7-47ad24e50c2b")
+		(property "Reference" "#PWR09"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+44V"
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d1c87f4-c12a-44b6-b93f-5e09dadaf7b8")
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 97.79 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a4ff7865-d883-442a-a9ca-09d48b469969")
 		(property "Reference" "D10"
-			(at 101.6 71.1199 90)
+			(at 100.33 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6948,7 @@
 			)
 		)
 		(property "Value" "BZT52C10-E3-08"
-			(at 101.6 73.6599 90)
+			(at 99.822 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6957,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 99.06 72.39 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 72.39 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6975,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 99.06 72.39 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,25 +7167,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b685c797-271f-4dd7-b9cf-bad9f736c566")
 		(property "Reference" "TH1"
-			(at 124.1425 111.76 90)
+			(at 124.46 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 124.1425 114.3 90)
+		(property "Value" "TFPT1206L1000FV"
+			(at 124.46 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 119.38 120.65 0)
 			(effects
 				(font
@@ -6730,17 +7313,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+48V")
-		(at 184.15 127 0)
+		(lib_id "FLYBACK_LTC1624:-44V")
+		(at 241.3 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1442820-291e-4d53-b88f-5b1e3e27cbd9")
-		(property "Reference" "#PWR09"
-			(at 184.15 130.81 0)
+		(uuid "bf765db1-0511-4806-9b64-4e5a407e8380")
+		(property "Reference" "#PWR036"
+			(at 245.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,16 +7331,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+48V"
-			(at 184.15 121.92 0)
+		(property "Value" "-44V"
+			(at 237.49 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 127 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +7350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 127 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,8 +7358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 184.15 127 0)
+		(property "Description" "Power symbol"
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,12 +7368,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1c16bc0-1af2-4bef-8949-3c8c8aa95309")
+			(uuid "cc586957-499a-449f-bc17-a855d3554a2c")
 		)
 		(instances
 			(project "FLYBACK_LTC1624"
 				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
-					(reference "#PWR09")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6967,7 +7551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
+		(lib_id "Mechanical:Heatsink")
 		(at 163.83 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6993,8 +7577,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FLYBACK_LT8304:Heatsink_AAVID_TV5G_TO220_Horizontal"
-			(at 164.1348 107.95 0)
+		(property "Footprint" "FLYBACK_LTC1624:Heatsink_AAVID_TV5G_TO220_Horizontal"
+			(at 164.1348 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.1348 107.95 0)
+			(at 164.1348 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +7595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" "Heatsink"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -7019,9 +7603,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9c215d64-5319-41c7-8fca-0058f5018563")
 		)
 		(instances
 			(project "FLYBACK_LTC1624"
@@ -7033,91 +7614,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-48V")
-		(at 184.15 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0ae2de5-15b1-411d-ae66-0da598db470c")
-		(property "Reference" "#PWR012"
-			(at 184.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-48V"
-			(at 184.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-48V\""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf4cac20-ea53-49b9-8a4d-381cdc307209")
-		)
-		(instances
-			(project "FLYBACK_LTC1624"
-				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/8b3f811c-bfa2-46bf-a28b-e8d6303082a4"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
-		(at 138.43 119.38 0)
+		(at 143.51 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3081d1d-47dd-4a9d-b8c3-c925ba1b4a9d")
 		(property "Reference" "D6"
-			(at 138.43 113.03 0)
+			(at 143.51 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMBJ5370B-TP"
-			(at 138.43 115.57 0)
+		(property "Value" "SMBJ5339B-TP"
+			(at 143.51 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7639,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 138.43 119.38 0)
+			(at 143.51 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 119.38 0)
+			(at 143.51 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 138.43 119.38 0)
+			(at 143.51 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
+		(lib_id "Mechanical:Heatsink")
 		(at 100.33 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7335,7 +7849,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5adbe78-2f1f-4b23-80ef-6341842b4140")
 		(property "Reference" "HS3"
-			(at 104.14 20.9549 0)
+			(at 104.14 19.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7858,7 @@
 			)
 		)
 		(property "Value" "TV5G"
-			(at 104.14 23.4949 0)
+			(at 104.14 22.2249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,8 +7866,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FLYBACK_LT8304:Heatsink_AAVID_TV5G_TO220_Horizontal"
-			(at 100.6348 24.13 0)
+		(property "Footprint" "FLYBACK_LTC1624:Heatsink_AAVID_TV5G_TO220_Horizontal"
+			(at 100.6348 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.6348 24.13 0)
+			(at 100.6348 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +7884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" "Heatsink"
 			(at 100.33 22.86 0)
 			(effects
 				(font
@@ -7378,9 +7892,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "e270609d-001e-4e2a-97ed-b131fd7759de")
 		)
 		(instances
 			(project "FLYBACK_LTC1624"
