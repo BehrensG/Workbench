@@ -4,7 +4,240 @@
 	(generator_version "8.0")
 	(uuid "b6dc4b50-1aef-431e-aae5-8ba2077040d1")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Graphic:SYM_Flash_Large"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Flash_Large"
+				(at 3.302 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.254 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flash symbol, large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Flash_Large_0_1"
+				(polyline
+					(pts
+						(xy 0.127 -3.556) (xy -1.524 -2.921) (xy -1.778 -5.588) (xy 0.127 -3.556)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 4.445) (xy 1.397 4.445) (xy 0 1.016) (xy 2.286 1.905) (xy -0.508 -3.937) (xy -1.397 -3.556)
+						(xy 0.254 -0.254) (xy -2.159 -1.143) (xy -0.508 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Flash_Large")
+		(at 149.86 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad964fd-3e75-459b-938e-588dc2529c94")
+		(property "Reference" "#SYM2"
+			(at 146.05 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Flash_Large"
+			(at 153.162 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.606 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flash symbol, large"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FLYBACK_LTC1624"
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1"
+					(reference "#SYM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Flash_Large")
+		(at 67.31 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a0e3c28-dc56-42b3-922f-32044e1e3034")
+		(property "Reference" "#SYM1"
+			(at 63.5 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Flash_Large"
+			(at 70.612 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.056 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flash symbol, large"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 63.5 63.5)
 		(size 69.85 52.07)
@@ -14,7 +247,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "0d0ff0c8-e715-47fe-aebe-0044b1d841d2")
 		(property "Sheetname" "Flyback"
@@ -52,7 +285,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "8b3f811c-bfa2-46bf-a28b-e8d6303082a4")
 		(property "Sheetname" "Regulator"
