@@ -2985,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 115.57) (xy 154.94 115.57)
+			(xy 134.62 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 99.06 128.27)
+			(xy 99.06 111.76) (xy 99.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 115.57) (xy 99.06 115.57)
+			(xy 127 111.76) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 154.94 128.27)
+			(xy 154.94 111.76) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +4187,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 130.81 115.57 0)
+		(at 130.81 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4196,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c96affe-db26-43ca-9870-6ae4dc99369b")
 		(property "Reference" "D9"
-			(at 130.81 109.22 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(property "Value" "MRA4003T3G"
-			(at 130.81 111.76 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 130.81 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4230,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 130.81 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4239,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 130.81 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4778,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 100.33 31.75 0)
+		(at 97.79 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4787,7 +4787,7 @@
 		(fields_autoplaced yes)
 		(uuid "418a2f18-31df-4607-b33c-4ab5e33d3ec7")
 		(property "Reference" "HS2"
-			(at 104.14 28.5749 0)
+			(at 101.6 38.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4796,7 @@
 			)
 		)
 		(property "Value" "HS-S01"
-			(at 104.14 31.1149 0)
+			(at 101.6 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4805,7 @@
 			)
 		)
 		(property "Footprint" "FLYBACK_LTC1624:Heatsink_Stonecold_HS-S01_13.21x6.35mm"
-			(at 100.6348 31.75 0)
+			(at 98.0948 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.6348 31.75 0)
+			(at 98.0948 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4823,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 100.33 31.75 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5566,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 163.83 115.57 0)
+		(at 142.24 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5575,7 +5575,7 @@
 		(fields_autoplaced yes)
 		(uuid "8867a4ab-0f41-4ef6-9ec6-7134778616b1")
 		(property "Reference" "HS4"
-			(at 167.64 112.3949 0)
+			(at 146.05 53.9749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5584,7 @@
 			)
 		)
 		(property "Value" "HS-S01"
-			(at 167.64 114.9349 0)
+			(at 146.05 56.5149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "Footprint" "FLYBACK_LTC1624:Heatsink_Stonecold_HS-S01_13.21x6.35mm"
-			(at 164.1348 115.57 0)
+			(at 142.5448 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.1348 115.57 0)
+			(at 142.5448 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5611,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 163.83 115.57 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6661,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 163.83 106.68 0)
+		(at 107.95 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6669,7 +6669,7 @@
 		(dnp no)
 		(uuid "cec71be4-2465-47e6-b10d-eb8ee83b6ca0")
 		(property "Reference" "HS3"
-			(at 167.64 104.7749 0)
+			(at 111.76 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "Value" "HS-S01"
-			(at 167.64 107.3149 0)
+			(at 111.76 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6687,7 @@
 			)
 		)
 		(property "Footprint" "FLYBACK_LTC1624:Heatsink_Stonecold_HS-S01_13.21x6.35mm"
-			(at 164.1348 106.68 0)
+			(at 108.2548 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.1348 106.68 0)
+			(at 108.2548 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 163.83 106.68 0)
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 100.33 22.86 0)
+		(at 130.81 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6891,7 +6891,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5adbe78-2f1f-4b23-80ef-6341842b4140")
 		(property "Reference" "HS1"
-			(at 104.14 19.6849 0)
+			(at 134.62 116.2049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6900,7 @@
 			)
 		)
 		(property "Value" "HS-S01"
-			(at 104.14 22.2249 0)
+			(at 134.62 118.7449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "FLYBACK_LTC1624:Heatsink_Stonecold_HS-S01_13.21x6.35mm"
-			(at 100.6348 22.86 0)
+			(at 131.1148 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.6348 22.86 0)
+			(at 131.1148 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 100.33 22.86 0)
+			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

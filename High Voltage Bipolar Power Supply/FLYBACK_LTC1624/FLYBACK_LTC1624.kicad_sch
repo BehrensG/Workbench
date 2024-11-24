@@ -103,16 +103,16 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Flash_Large")
-		(at 149.86 69.85 0)
+		(at 151.13 69.85 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad964fd-3e75-459b-938e-588dc2529c94")
-		(property "Reference" "#SYM2"
-			(at 146.05 69.85 90)
+		(property "Reference" "SYM2"
+			(at 147.32 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +121,7 @@
 			)
 		)
 		(property "Value" "SYM_Flash_Large"
-			(at 153.162 69.85 90)
+			(at 154.432 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,8 +129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.606 72.136 0)
+		(property "Footprint" "Symbol:Symbol_HighVoltage_Triangle_8x7mm_Copper"
+			(at 150.876 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 72.39 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +148,7 @@
 			)
 		)
 		(property "Description" "Flash symbol, large"
-			(at 149.86 69.85 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,7 +159,7 @@
 		(instances
 			(project "FLYBACK_LTC1624"
 				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1"
-					(reference "#SYM2")
+					(reference "SYM2")
 					(unit 1)
 				)
 			)
@@ -167,16 +167,16 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Flash_Large")
-		(at 67.31 69.85 0)
+		(at 151.13 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a0e3c28-dc56-42b3-922f-32044e1e3034")
-		(property "Reference" "#SYM1"
-			(at 63.5 69.85 90)
+		(uuid "a5948a75-be80-41c4-b40b-97e99fdb4f99")
+		(property "Reference" "SYM1"
+			(at 147.32 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +185,7 @@
 			)
 		)
 		(property "Value" "SYM_Flash_Large"
-			(at 70.612 69.85 90)
+			(at 154.432 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,8 +193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.056 72.136 0)
+		(property "Footprint" "Symbol:Symbol_Attention_Triangle_8x7mm_Copper"
+			(at 150.876 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 72.39 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,16 +212,7 @@
 			)
 		)
 		(property "Description" "Flash symbol, large"
-			(at 67.31 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 67.31 69.85 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,9 +221,9 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "FLYBACK_LTC1624"
 				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1"
-					(reference "#SYM1")
+					(reference "SYM1")
 					(unit 1)
 				)
 			)

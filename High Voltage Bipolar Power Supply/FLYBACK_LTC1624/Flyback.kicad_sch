@@ -4643,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 67.31) (xy 44.45 62.23)
+			(xy 44.45 68.58) (xy 44.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5663,7 +5663,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 74.93) (xy 44.45 82.55)
+			(xy 44.45 76.2) (xy 44.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6463,7 @@
 		(at 220.98 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "21e2619f-114b-45e4-8662-972bc9620773")
@@ -7741,7 +7741,7 @@
 		(at 220.98 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "54c8b7cb-1851-40db-b054-435214ebf1b0")
@@ -8989,6 +8989,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bc66755-c91a-4395-b581-c55b28460970")
+		(property "Reference" "#PWR024"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dec1f13-7327-433e-917b-bcf98e90acb0")
+		)
+		(instances
+			(project "FLYBACK_LTC1624"
+				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/0d0ff0c8-e715-47fe-aebe-0044b1d841d2"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 162.56 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9142,7 +9208,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 71.12 0)
+		(at 44.45 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9150,7 +9216,7 @@
 		(dnp no)
 		(uuid "969fc998-f3fa-45a5-aad9-84cafb72eec6")
 		(property "Reference" "C1"
-			(at 49.022 68.072 0)
+			(at 49.022 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9225,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 47.498 69.85 0)
+			(at 47.498 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 45.4152 74.93 0)
+			(at 45.4152 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 71.12 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9252,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 71.12 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9261,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 48.26 71.882 0)
+			(at 48.26 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9270,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 47.498 73.914 0)
+			(at 47.498 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,72 +10349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 180.34 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c12fb068-ad24-4f84-901b-7379330f4381")
-		(property "Reference" "#PWR024"
-			(at 180.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 180.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 180.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd187f97-f342-422d-907f-458d65a9d2e8")
-		)
-		(instances
-			(project "FLYBACK_LTC1624"
-				(path "/b6dc4b50-1aef-431e-aae5-8ba2077040d1/0d0ff0c8-e715-47fe-aebe-0044b1d841d2"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 138.43 151.13 0)
 		(unit 1)
@@ -10771,7 +10771,7 @@
 		(at 220.98 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d0e192f0-c5bd-43f1-b52a-70d20ef6d2a2")
@@ -11126,7 +11126,7 @@
 		(at 220.98 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "df6ddf68-0d90-41fd-9c3c-af2d1c2c54f8")
