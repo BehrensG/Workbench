@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b06855b0-03c6-43cf-aa99-1933f4fbd947")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 66.04 57.15)
+		(size 68.58 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76b52de3-6c66-44ce-a23b-228ee55971c8")
+		(property "Sheetname" "Transformer Driver"
+			(at 66.04 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transformer_Driver.kicad_sch"
+			(at 66.04 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UCC25800"
+				(path "/b06855b0-03c6-43cf-aa99-1933f4fbd947"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 57.15)
+		(size 68.58 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3e52908-8e2f-4d32-9870-34e6f2251e48")
+		(property "Sheetname" "Regulation"
+			(at 139.7 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulation.kicad_sch"
+			(at 139.7 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UCC25800"
+				(path "/b06855b0-03c6-43cf-aa99-1933f4fbd947"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

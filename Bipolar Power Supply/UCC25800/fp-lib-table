@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UCC25800")(type "KiCad")(uri "${KIPRJMOD}/lib/pcb/UCC25800.pretty")(options "")(descr ""))
+)
