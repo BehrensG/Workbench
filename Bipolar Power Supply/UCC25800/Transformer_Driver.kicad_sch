@@ -3084,16 +3084,6 @@
 		)
 		(uuid "519398cf-c3f8-4515-b956-93a25efe79da")
 	)
-	(wire
-		(pts
-			(xy 207.01 99.06) (xy 207.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5200e88f-1fc5-4b53-9f22-45aec0315cd4")
-	)
 	(polyline
 		(pts
 			(xy 162.56 96.52) (xy 162.56 189.23)
@@ -3153,6 +3143,16 @@
 			(type default)
 		)
 		(uuid "60ac6a7d-191e-4882-acf9-f07368c60ac7")
+	)
+	(wire
+		(pts
+			(xy 259.08 68.58) (xy 260.35 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612ad6f3-9a53-4870-9251-182936f2cde4")
 	)
 	(wire
 		(pts
@@ -3666,6 +3666,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 99.06) (xy 260.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93123ba-0f13-4245-830c-1c735b0bcd3a")
+	)
+	(wire
+		(pts
 			(xy 121.92 104.14) (xy 130.81 104.14)
 		)
 		(stroke
@@ -3813,16 +3823,6 @@
 			(type default)
 		)
 		(uuid "e3da4828-7cf5-4d46-98ca-887fc98cbc56")
-	)
-	(wire
-		(pts
-			(xy 207.01 67.31) (xy 207.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cfcd9c-b830-425d-805b-6a00f4ac5f43")
 	)
 	(wire
 		(pts
@@ -4230,7 +4230,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.01 100.33 180)
+		(at 260.35 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4239,25 +4239,25 @@
 		(fields_autoplaced yes)
 		(uuid "1351ff78-5bb4-4ed7-81cd-e44a32dd782d")
 		(property "Reference" "TP4"
-			(at 209.55 102.3619 0)
+			(at 265.43 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.55 104.9019 0)
+			(at 265.43 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 201.93 100.33 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 100.33 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4275,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.01 100.33 0)
+			(at 260.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,8 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x105NL")
-		(at 229.87 83.82 180)
+		(at 229.87 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4675,7 +4676,7 @@
 		(dnp no)
 		(uuid "44b027e4-3b30-4813-aeab-4807c9212dd8")
 		(property "Reference" "FL1"
-			(at 229.87 91.44 0)
+			(at 229.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4684,7 @@
 			)
 		)
 		(property "Value" "ACM2012-900-2P-T001"
-			(at 229.87 89.408 0)
+			(at 229.87 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.192 99.06 90)
 			(effects
 				(font
@@ -5036,7 +5037,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 145.034 102.108 0)
 			(effects
 				(font
@@ -5534,7 +5535,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.01 67.31 0)
+		(at 260.35 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5543,7 +5544,7 @@
 		(fields_autoplaced yes)
 		(uuid "73d4a2a2-f50f-4336-a7a4-038840d86256")
 		(property "Reference" "TP3"
-			(at 209.55 62.7379 0)
+			(at 265.43 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5553,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.55 65.2779 0)
+			(at 265.43 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5562,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 212.09 67.31 0)
+			(at 260.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 67.31 0)
+			(at 260.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5580,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.01 67.31 0)
+			(at 260.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 131.7752 74.93 0)
 			(effects
 				(font
@@ -5661,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 135.89 73.914 0)
 			(effects
 				(font
@@ -6535,7 +6536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.192 71.12 90)
 			(effects
 				(font
@@ -6570,7 +6571,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 144.78 73.914 0)
 			(effects
 				(font
@@ -6823,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 74.93 0)
 			(effects
 				(font
@@ -6858,7 +6859,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 156.21 73.914 0)
 			(effects
 				(font
@@ -7234,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 102.87 0)
 			(effects
 				(font
@@ -7269,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 156.21 102.108 0)
 			(effects
 				(font
