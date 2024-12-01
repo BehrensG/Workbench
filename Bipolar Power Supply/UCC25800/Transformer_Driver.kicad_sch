@@ -3086,7 +3086,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 96.52) (xy 162.56 189.23)
+			(xy 162.56 97.79) (xy 162.56 193.04)
 		)
 		(stroke
 			(width 1)
@@ -3556,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 76.2) (xy 100.33 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba21acc6-df16-4a49-9691-515541781b58")
-	)
-	(wire
-		(pts
 			(xy 92.71 83.82) (xy 82.55 83.82)
 		)
 		(stroke
@@ -3846,7 +3836,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 16.51) (xy 162.56 76.2)
+			(xy 162.56 13.97) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 1)
@@ -4147,7 +4137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 76.2 90)
+		(at 96.52 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4155,7 +4145,7 @@
 		(dnp no)
 		(uuid "130b0bc1-4cdb-4920-a4bb-e9e6afeccc78")
 		(property "Reference" "R5"
-			(at 95.25 71.882 90)
+			(at 96.52 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4153,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 95.25 73.914 90)
+			(at 96.52 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.25 77.978 90)
+			(at 96.52 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 76.2 0)
+			(at 96.52 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4179,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 76.2 0)
+			(at 96.52 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4188,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 95.25 78.486 90)
+			(at 96.52 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4196,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 95.25 80.264 90)
+			(at 96.52 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k9"
+		(property "Value" "4k99"
 			(at 94.488 98.298 0)
 			(effects
 				(font
@@ -4534,7 +4524,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 91.44 76.2 270)
+		(at 92.71 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4543,7 +4533,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a1548c8-999e-4d63-a7f9-ad86b1b1775d")
 		(property "Reference" "#PWR04"
-			(at 85.09 76.2 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4542,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 87.63 76.1999 90)
+			(at 88.9 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 76.2 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 76.2 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 91.44 76.2 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4805,7 @@
 		(dnp no)
 		(uuid "500b1259-1a35-4642-9b0a-35740032f369")
 		(property "Reference" "C1"
-			(at 34.798 76.708 0)
+			(at 35.56 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24k9"
+		(property "Value" "4k99"
 			(at 94.488 87.884 0)
 			(effects
 				(font
@@ -5332,7 +5322,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 85.852 93.726 0)
+			(at 86.36 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Value" "0603PS-SRF"
+		(property "Value" "0603AF-241XJRW"
 			(at 39.37 60.96 90)
 			(effects
 				(font

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BOOST_LT8365")(type "KiCad")(uri "${KIPRJMOD}/lib/pcb/BOOST_LT8365.pretty")(options "")(descr ""))
+)
