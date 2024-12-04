@@ -2394,7 +2394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:S16N-PC"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:74437324100"
 			(at 118.11 50.8 0)
 			(effects
 				(font
@@ -2914,7 +2914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:S16N-PC"
 			(at 229.87 88.9 0)
 			(effects
 				(font

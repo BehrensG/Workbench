@@ -144,23 +144,118 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
+		(symbol "Graphic:SYM_Flash_XLarge"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
 			)
+			(property "Value" "SYM_Flash_XLarge"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flash symbol, extra large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Flash_XLarge_0_1"
+				(polyline
+					(pts
+						(xy -0.127 -3.683) (xy -2.667 -3.048) (xy -2.667 -6.223) (xy -0.127 -3.683)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 8.255) (xy 1.27 8.255) (xy 2.54 8.255) (xy 0 1.905) (xy 2.54 3.175) (xy -1.27 -4.445) (xy -2.54 -4.445)
+						(xy 0 0.635) (xy -2.54 -0.635) (xy 0 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -185,7 +280,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -203,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -212,9 +307,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -222,6 +317,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -539,6 +654,22 @@
 			)
 		)
 	)
+	(no_connect
+		(at 48.26 185.42)
+		(uuid "1f5c0658-c076-4a5d-8e19-72e944be5274")
+	)
+	(no_connect
+		(at 68.58 185.42)
+		(uuid "5ff81429-823a-411f-b780-cd57f52b3ca9")
+	)
+	(no_connect
+		(at 109.22 185.42)
+		(uuid "8a4942bb-201c-4b46-886d-a4433cff1c33")
+	)
+	(no_connect
+		(at 88.9 185.42)
+		(uuid "b7d45339-7439-45e6-88c6-8172d9087c89")
+	)
 	(wire
 		(pts
 			(xy 64.77 82.55) (xy 59.69 82.55)
@@ -640,6 +771,79 @@
 			(project "BOOST_LT8365"
 				(path "/92f9f57b-5733-4cde-b803-f49b57b7d9f1"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Flash_XLarge")
+		(at 80.01 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf0ebd0-dbe7-4440-85d2-aefc9d4e7c78")
+		(property "Reference" "SYM1"
+			(at 76.2 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Flash_XLarge"
+			(at 83.82 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_HighVoltage_Triangle_8x7mm_Copper"
+			(at 80.01 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flash symbol, extra large"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/92f9f57b-5733-4cde-b803-f49b57b7d9f1"
+					(reference "SYM1")
 					(unit 1)
 				)
 			)
@@ -844,6 +1048,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Flash_XLarge")
+		(at 78.74 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29400499-cb46-41fb-a5b7-50869e07f7e6")
+		(property "Reference" "SYM2"
+			(at 74.93 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Flash_XLarge"
+			(at 82.55 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_HighVoltage_Triangle_8x7mm_Copper"
+			(at 78.74 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flash symbol, extra large"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BOOST_LT8365"
+				(path "/92f9f57b-5733-4cde-b803-f49b57b7d9f1"
+					(reference "SYM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 25.4 182.88 0)
 		(unit 1)
@@ -910,7 +1178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 68.58 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -920,7 +1188,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c0ca944-c689-4f59-84b2-50f419ef008f")
 		(property "Reference" "H2"
-			(at 71.12 181.6099 0)
+			(at 71.12 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +1197,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 71.12 184.1499 0)
+			(at 71.12 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 68.58 182.88 0)
 			(effects
 				(font
@@ -955,7 +1223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 68.58 182.88 0)
 			(effects
 				(font
@@ -963,6 +1231,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2e6611a8-dde9-4ed4-88e9-dde308a2a6be")
 		)
 		(instances
 			(project "BOOST_LT8365"
@@ -1043,7 +1314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 48.26 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1053,7 +1324,7 @@
 		(fields_autoplaced yes)
 		(uuid "91adf3da-456d-496e-817f-05f8183c0bac")
 		(property "Reference" "H1"
-			(at 50.8 181.6099 0)
+			(at 50.8 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1333,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 50.8 184.1499 0)
+			(at 50.8 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -1088,7 +1359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 48.26 182.88 0)
 			(effects
 				(font
@@ -1096,6 +1367,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "e0d09bcb-520d-4150-acba-b9b4b7f21c6f")
 		)
 		(instances
 			(project ""
@@ -1107,7 +1381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 109.22 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1117,7 +1391,7 @@
 		(fields_autoplaced yes)
 		(uuid "980257d2-15e4-425f-8567-167de8321525")
 		(property "Reference" "H4"
-			(at 111.76 181.6099 0)
+			(at 111.76 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1400,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 111.76 184.1499 0)
+			(at 111.76 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 109.22 182.88 0)
 			(effects
 				(font
@@ -1152,7 +1426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 109.22 182.88 0)
 			(effects
 				(font
@@ -1160,6 +1434,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "89d9ab7d-7c62-4f0c-8cde-9a3684852e69")
 		)
 		(instances
 			(project "BOOST_LT8365"
@@ -1237,7 +1514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 88.9 182.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1247,7 +1524,7 @@
 		(fields_autoplaced yes)
 		(uuid "e072b897-9874-4e89-af69-ae879890f42c")
 		(property "Reference" "H3"
-			(at 91.44 181.6099 0)
+			(at 91.44 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1533,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 91.44 184.1499 0)
+			(at 91.44 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 88.9 182.88 0)
 			(effects
 				(font
@@ -1282,7 +1559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 88.9 182.88 0)
 			(effects
 				(font
@@ -1290,6 +1567,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "49516b6c-82eb-44f9-be44-6df5bbcba336")
 		)
 		(instances
 			(project "BOOST_LT8365"
@@ -1309,7 +1589,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "07dd5b3f-2390-4b79-ad1f-943612ddf1c6")
 		(property "Sheetname" "Negative Voltage"
@@ -1347,7 +1627,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "4ab5687d-573f-494b-84c9-f490365cc3d4")
 		(property "Sheetname" "Positive Voltage"

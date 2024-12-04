@@ -2187,17 +2187,6 @@
 		)
 		(uuid "de6e9252-2285-467f-8d1b-1b287ce33856")
 	)
-	(label "-HV3"
-		(at 76.2 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23f304d8-ff11-4b41-965d-ae467b64c761")
-	)
 	(label "-HV4"
 		(at 161.29 49.53 0)
 		(fields_autoplaced yes)
@@ -2502,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:74437324100"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -3814,7 +3803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:S16N-PC"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -3881,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BOOST_LT8365:S16N-PC"
 			(at 227.33 49.53 0)
 			(effects
 				(font

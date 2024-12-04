@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * Z:\home\grzegorz\git\Workbench\High Voltage Bipolar Power Supply\sim\LT8365_HV_Positive.asc
-Start Time: Mon Dec  2 21:34:59 2024
+Start Time: Wed Dec  4 21:21:38 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -23,5 +23,5 @@ Ignoring empty pin current: Ix(u1:15)
 Ignoring empty pin current: Ix(u1:16)
 Changing Tseed to 9.76562e-09
 Changing Tseed to 9.76563e-11
-Total elapsed time: 309.933 seconds.
+Total elapsed time: 309.943 seconds.
 
