@@ -1506,7 +1506,7 @@
 		(uuid "d09678e6-0c95-4f90-8778-3fda9d5e09f9")
 	)
 	(junction
-		(at 184.15 50.8)
+		(at 187.96 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d31db5e9-cf57-4790-9bb5-3b040cb7a4a9")
@@ -1665,16 +1665,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 180.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bf951b-4766-4e7e-a756-95481d95c001")
-	)
-	(wire
-		(pts
 			(xy 149.86 50.8) (xy 154.94 50.8)
 		)
 		(stroke
@@ -1695,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 198.12 104.14)
+			(xy 173.99 104.14) (xy 198.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1732,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "4a0ca747-3843-4685-9472-7cb675898061")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 204.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec618a7-45f2-45ac-8e6e-fec0761335c6")
 	)
 	(wire
 		(pts
@@ -1785,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 104.14) (xy 165.1 104.14)
+			(xy 158.75 104.14) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 198.12 50.8)
+			(xy 187.96 50.8) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1852,16 +1852,6 @@
 			(type default)
 		)
 		(uuid "7b23226e-1e0d-4d70-9a2b-289fcd61c0b1")
-	)
-	(wire
-		(pts
-			(xy 198.12 50.8) (xy 204.47 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3e19c7-21e1-451e-833e-1769d18b0d6d")
 	)
 	(wire
 		(pts
@@ -1912,6 +1902,16 @@
 			(type default)
 		)
 		(uuid "a1a33a9f-e435-484f-8b50-38deb3bdce3f")
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a24e6a-3c40-47eb-8133-1b4acdee4f97")
 	)
 	(wire
 		(pts
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 50.8) (xy 172.72 50.8)
+			(xy 170.18 50.8) (xy 175.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 49.53) (xy 184.15 50.8)
+			(xy 187.96 49.53) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 57.15) (xy 184.15 50.8)
+			(xy 187.96 57.15) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 64.77) (xy 184.15 68.58)
+			(xy 187.96 64.77) (xy 187.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 104.14 90)
+		(at 170.18 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2293,7 @@
 		(dnp no)
 		(uuid "124334dd-f5e3-4cbf-8aa4-131ef93e3f99")
 		(property "Reference" "R4"
-			(at 168.91 96.012 90)
+			(at 170.18 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2301,7 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 168.91 98.044 90)
+			(at 170.18 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 168.91 105.918 90)
+			(at 170.18 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 168.91 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Voltage" "200V"
-			(at 168.91 100.076 90)
+			(at 170.18 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2344,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 168.91 101.854 90)
+			(at 170.18 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 50.8 90)
+		(at 179.07 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3266,7 +3266,7 @@
 		(dnp no)
 		(uuid "8b05bbb1-3705-4f46-a5d1-34a0db65c699")
 		(property "Reference" "R8"
-			(at 176.53 42.672 90)
+			(at 179.07 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 176.53 44.704 90)
+			(at 179.07 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 176.53 52.578 90)
+			(at 179.07 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 50.8 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3300,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 50.8 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3309,7 @@
 			)
 		)
 		(property "Voltage" "200V"
-			(at 176.53 46.736 90)
+			(at 179.07 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3317,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 176.53 48.514 90)
+			(at 179.07 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.15 60.96 0)
+		(at 187.96 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3415,7 +3415,7 @@
 		(dnp no)
 		(uuid "9696de7e-e3a9-4c8e-ab95-93fe61897f1c")
 		(property "Reference" "C8"
-			(at 188.214 58.166 0)
+			(at 192.024 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3424,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 187.452 59.9439 0)
+			(at 191.262 59.9439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3433,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 185.1152 64.77 0)
+			(at 188.9252 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 60.96 0)
+			(at 187.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 184.15 60.96 0)
+			(at 187.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 189.738 61.722 0)
+			(at 193.548 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 189.738 63.5 0)
+			(at 193.548 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 68.58 0)
+		(at 187.96 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3821,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce39913b-c2f0-4160-bbef-44fa09b2f2a8")
 		(property "Reference" "#PWR07"
-			(at 184.15 74.93 0)
+			(at 187.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 73.66 0)
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 68.58 0)
+			(at 187.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 68.58 0)
+			(at 187.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 68.58 0)
+			(at 187.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 	)
 	(symbol
 		(lib_id "BOOST_LT8365:+110V")
-		(at 184.15 49.53 0)
+		(at 187.96 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4019,7 +4019,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5c4d78-ac90-4987-bb19-4eb9e1ced7bf")
 		(property "Reference" "#PWR09"
-			(at 184.15 53.34 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Value" "+110V"
-			(at 184.15 44.45 0)
+			(at 187.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 49.53 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 49.53 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label"
-			(at 184.15 49.53 0)
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
